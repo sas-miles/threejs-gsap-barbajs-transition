@@ -2,6 +2,38 @@
   "src/main.js": {
     "file": "main.js",
     "src": "src/main.js",
-    "isEntry": true
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/@splinetool/runtime/build/navmesh.js",
+      "node_modules/@splinetool/runtime/build/physics.js",
+      "node_modules/@splinetool/runtime/build/process.js",
+      "node_modules/@splinetool/runtime/build/boolean.js",
+      "node_modules/@splinetool/runtime/build/opentype.js"
+    ]
+  },
+  "node_modules/@splinetool/runtime/build/navmesh.js": {
+    "file": "assets/navmesh.235cb16f.js",
+    "src": "node_modules/@splinetool/runtime/build/navmesh.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/@splinetool/runtime/build/physics.js": {
+    "file": "assets/physics.9a8954b7.js",
+    "src": "node_modules/@splinetool/runtime/build/physics.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/@splinetool/runtime/build/process.js": {
+    "file": "assets/process.cd3c671e.js",
+    "src": "node_modules/@splinetool/runtime/build/process.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/@splinetool/runtime/build/boolean.js": {
+    "file": "assets/boolean.d7606b08.js",
+    "src": "node_modules/@splinetool/runtime/build/boolean.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/@splinetool/runtime/build/opentype.js": {
+    "file": "assets/opentype.c07617e8.js",
+    "src": "node_modules/@splinetool/runtime/build/opentype.js",
+    "isDynamicEntry": true
   }
 }
